@@ -1,0 +1,24 @@
+{
+  "compilerOptions": {
+    "target": "ES6",
+    "module": "commonjs",
+    "rootDir": "./",
+    "outDir": "./dist",
+    "strict": true,
+    "esModuleInterop": true,
+    "skipLibCheck": true,
+    "forceConsistentCasingInFileNames": true,
+    "resolveJsonModule": true
+  },
+  "include": [
+    "core/*",
+    "controller/*",
+    "routes/*",
+    "middleware/**/*",
+    "config/*",
+    "repository/*"
+  ],
+  "exclude": [
+    "node_modules"
+  ]
+}
